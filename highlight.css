@@ -1,0 +1,47 @@
+/* This theme was generated from /usr/share/vim/vim81/colors/peachpuff.vim by vim2css.pl */
+.synQuestion { color: #2e8b57; font-weight: bold; }
+.synDiffText { background-color: #ff8060; font-weight: bold; }
+.synStatement { color: #a52a2a; font-weight: bold; }
+.synVisualNOS { }
+.synDiffAdd { background-color: #ffffff; font-weight: bold; }
+.synDiffDelete { color: #add8e6; background-color: #f6e8d0; font-weight: bold; }
+.synType { color: #2e8b57; font-weight: bold; }
+.synTitle { color: #cd1076; font-weight: bold; }
+.synSpecialKey { color: #0000ff; font-weight: bold; }
+.synClear { }
+.synIgnore { font-weight: bold; }
+.synVertSplit { color: #ffffff; background-color: #737373; font-weight: bold; }
+.synNonText { color: #0000ff; font-weight: bold; }
+.synPreProc { color: #cd00cd; }
+.synDiffChange { background-color: #edb5cd; font-weight: bold; }
+.synErrorMsg { color: #ffffff; background-color: #ff0000; font-weight: bold; }
+.synFolded { color: #000000; background-color: #e3c1a5; }
+.synWildMenu { color: #000000; background-color: #ffff00; }
+.synComment { color: #406090; font-weight: bold; }
+.synStatusLineNC { color: #ffdab9; background-color: #737373; font-weight: bold; }
+.synIdentifier { color: #008b8b; }
+.synVisual { color: #cccccc; background-color: #cccccc; }
+.synLineNr { color: #cd0000; }
+.synMoreMsg { color: #2e8b57; font-weight: bold; }
+.synConstant { color: #c00058; }
+.synWarningMsg { color: #ff0000; font-weight: bold; }
+.synIncSearch { }
+.synTodo { color: #0000ff; background-color: #ffff00; }
+.synModeMsg { font-weight: bold; }
+.synError { color: #ffffff; background-color: #ff0000; font-weight: bold; }
+.synStatusLine { color: #ffffff; background-color: #000000; font-weight: bold; }
+.synDirectory { color: #0000ff; font-weight: bold; }
+.synFoldColumn { color: #00008b; background-color: #cccccc; }
+.synSpecial { color: #6a5acd; font-weight: bold; }
+.synSearch { background-color: #eec900; }
+.synNormal { color: #000000; background-color: #ffdab9; }
+/* Line numbers */
+.synNormal:before { counter-reset: synLineNo; }
+.synNormal code { counter-increment: synLineNo; }
+.synNormal code::before { content: counter(synLineNo); display: inline-block;
+  width: 4em; text-align: center; border-right: 1px solid; margin-right: 1em; }
+.synNormal code::before { color: #cd0000; }
+/* Border */
+.synNormal { border: 1px dashed #cd0000; }
+/* Box itself */
+.synNormal { max-width: 70%; overflow: auto; margin: 0 auto; }
